@@ -5,45 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .collection {
-            height: 150px;
-            background-color: aquamarine;
-            width: auto;
-            display: flex;
-            /* flex-direction: column; */
-            align-items: center;
-            justify-content: center;
-            font-size: 50px;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        .searcharea{
-            height:100px;
-            background-color: blueviolet;
-            font-size: 25px;
-
-            display: flex;
-            /* flex-direction: column; */
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="01.js"></script>
 
 </head>
 
 <body>
+    
     <div class="collection">영화콜렉션</div>
-    <div class = "searcharea">
-        <div>영화검색</div>
-        <input type="text" id="search-input" placeholder="영화 제목을 검색해 보세요">
-        <button type="submit" id="search-btn">검색</button>
+    <div class="searcharea">
+        <div class="search-text">영화검색</div>
+        <input class="search-input-class" type="text" id="search-input" placeholder="영화 제목을 검색해 보세요">
+        <button class="search-btn-class" type="submit" id="search-btn">검색</button>
     </div>
-    <div>카드 나오는 곳</div>
+    <div class="cardarea">
+
+    </div>
 </body>
 
 </html>
