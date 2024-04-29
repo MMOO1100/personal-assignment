@@ -1,0 +1,49 @@
+
+.collection {
+    height: 150px;
+    background-color: aquamarine;
+    width: auto;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.searcharea {
+    height: 100px;
+    background-color: rgb(138, 100, 173);
+    font-size: 30px;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input-class {
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 2px;
+
+}
+
+.search-btn-class {
+    width: 40px;
+    height: 35px;
+}
+
+.cardarea {
+    height: 100vh;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
